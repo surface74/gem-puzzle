@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@import '../gem-puzzle/sass/abstracts/variables';
+
+@import '../gem-puzzle/sass/abstracts/placeholders';
+
+@import '../gem-puzzle/sass/base/common';
+
+@import '../gem-puzzle/sass/components/gem';
+@import '../gem-puzzle/sass/components/button';
+
+@import '../gem-puzzle/sass/pages/index';
+
+// @import '../gem-puzzle/assets/styles/show-border.css';

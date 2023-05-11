@@ -1,0 +1,83 @@
+.content {
+  padding-top: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.statistics {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.game-fields {
+  width: min(95vw, 800px, 80vh);
+  position: relative;
+  background-color: $color-field;
+  aspect-ratio: 1;
+  margin: 0 auto 10px;
+}
+
+.config {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .change-size {
+    display: flex;
+    column-gap: 10px;
+  }
+
+}
+
+.sound {
+  display: flex;
+  align-items: center;
+
+  .sound-switch {
+    margin-right: 5px;
+  }
+}
+
+.label {
+  margin: 0 5px;
+}
+
+.value {
+  color: $color-font;
+}
+
+.size-link {
+  color: $color-link;
+  text-decoration: underline;
+}
+
+.popup-win {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  background-color: $color-popup-bg;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+}

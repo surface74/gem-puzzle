@@ -1,0 +1,41 @@
+.gem {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  font-size: 1.2rem;
+  color: $color-gem-label;
+  background-color: $color-gem-bg;
+  border: 1px solid $color-gem-borger;
+  border-radius: 6px;
+  margin: 1px;
+  transition: all 0.5s;
+
+  &.empty, &.empty:hover {
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+    transition: none;
+  }
+
+  &.empty.dropzone {
+    background: $color-gem-label;
+  }
+
+  &:hover {
+    color: $color-gem-label-hover;
+    border-color: $color-gem-borger-hover;
+  }
+
+  &::after {
+    content: attr(data-gem);
+  }
+}
+
+.gem_empty,
+.gem_empty:hover {
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}

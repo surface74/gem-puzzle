@@ -1,0 +1,32 @@
+$color-black: #000000;
+$color-grey: #e5e5e5;
+$color-dark-grey: #979797;
+$color-white: #ffffff;
+$color-blue: #060af3;
+$color-light-blue: #17edf5;
+
+$color-popup-bg: rgba(0, 255, 60, 0.5);
+
+$color-field: $color-grey;
+$color-gem-label: $color-dark-grey;
+$color-gem-label-hover: $color-light-blue;
+$color-gem-borger: $color-dark-grey;
+$color-gem-borger-hover: $color-light-blue;
+$color-gem-bg: $color-white;
+$color-link: $color-blue;
+
+$color-button-font: $color-grey;
+$color-button_hover: $color-light-blue;
+$color-button_active: #0c9095;
+$color-button_disabled: #666666;
+
+$color-font: $color-button_active;
+
+$breakpoints: (
+  "desktop": (max-width: 1600px),
+  "max-1440": (max-width: 1440px),
+  "max-1280": (max-width: 1280px),
+  "max-1000": (max-width: 1000px),
+  "max-640": (max-width: 640px),
+  "max-320": (max-width: 320px)
+);
